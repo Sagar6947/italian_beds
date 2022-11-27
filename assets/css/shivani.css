@@ -1,0 +1,210 @@
+
+/* 
+@font-face {
+	font-family: Gilroy;
+	src: url("../myfonts/Gilroy-Light.otf") format("opentype");
+} */
+
+
+@font-face{
+    font-family: Gilroy;
+    src: url("../myfonts/Gilroy-Light.otf") format(opentype)
+}
+@font-face{
+    font-family: Gilroy-ExtraBold;
+    src: url("../myfonts/Gilroy-ExtraBold.otf") format(opentype)
+}
+
+
+
+.shivani-title{
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 45px;
+    position: relative;
+    display: inline-block;
+    margin-top: -20px;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    color: #21305c;
+}
+
+.shivi-slider-text-wrapper {
+    margin: 0 -115px;
+    padding: 65px 105px;
+    /* /* border: 10px solid #f8f8f8; */
+}
+
+.shivani-testimonial__content .testimonial-text {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28px;
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    /* color: #000; */
+}
+@font-face {
+	font-family: Gilroy;
+	src: url("../myfonts/Gilroy-Light.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Gilroy-ExtraBold;
+	/* font-weight: 400; */
+	src: url("../myfonts/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+.circle {
+width:100px;
+height:100px;
+background-color: #21305c;
+margin: 10% auto;
+border-radius: 50%;
+position: relative;
+}
+.tag_circle {
+    width:50px;
+    height:50px;
+    background-color:#e3ebf3;
+    margin: 10% auto;
+    border-radius: 50%;
+    position: relative;
+    }
+
+.shi-content{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #ffff;
+    font-style: normal;
+    text-transform: capitalize;
+    transform: translate(-50%, -50%);
+}
+
+.circle::after{
+    content: '';
+    width: 100px;
+    height: 2px;
+    border-top: 2px dashed #21305c;
+    position: absolute;
+    bottom: -16px;
+    transform: rotate(90deg);
+    left: 0;
+    z-index: -9;
+}
+
+.line::before{
+    display: none !important;
+}
+
+.circle::before{
+    content: '';
+    width: 100px;
+    height: 2px;
+    border-top: 2px dashed #21305c;
+    position: absolute;
+    transform: rotate(90deg);
+    left: 0;
+    z-index: -9;
+    top: -16px;
+}
+
+
+
+
+
+
+.myDiv {
+ 
+    background-color: #ffff;    
+    text-align: center;
+  }
+
+  body {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    line-height: 1.5;
+    position: relative;
+    visibility: visible;
+    color: #000;
+    background-color: #fff;
+}
+
+  /* =================== */
+
+  .sagar_container{
+    display: flex;
+    justify-content: center;
+    background: maroon;
+  }
+
+  .sagar_container .sagar{
+    color: #fff;
+    position: relative;
+  }
+
+  .sagar::after{
+    content: '';
+    width: 100px;
+    height: 2px;
+    background: blue;
+    position: absolute;
+    bottom: 0;
+  }
+
+@media (max-width: 991px){
+
+    .circle{
+
+        margin: 26% auto;
+    }
+}
+
+
+.p-style {
+    padding: 62px;
+}
+.post_image{
+    width: 90%;
+}
+
+.navigation-area {
+    padding: 100px;
+    padding-bottom: 35px;
+    background-color: #21305c;
+    
+        margin: 219px;
+       
+        /* height: 300px; */
+}
+.box-style{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+
+.h_style {
+  
+    color: white;
+    margin-bottom: 20px;
+  
+    
+}
+
+.f_style{
+font-weight: 200;
+font-size: 16px;
+}
+

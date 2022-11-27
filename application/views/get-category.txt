@@ -1,0 +1,11 @@
+	<?php
+						$data = getAllData('catalog/categories');
+						$category = json_decode($data, true);
+						if(!empty($category['data'])){
+    						foreach ($category['data'] as $cat) {
+    							if ($cat['parent_id'] == 0){
+    								category($cat, '6');
+    						    }
+    						}
+						}
+						?>
